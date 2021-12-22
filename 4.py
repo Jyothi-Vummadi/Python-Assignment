@@ -1,0 +1,6 @@
+f = input("Enter Filename : ")
+fn = open(f,'r')
+data = fn.read()
+words = data.split()
+fn.close()
+print('Number of words in {} :'.format(f), len(words))
